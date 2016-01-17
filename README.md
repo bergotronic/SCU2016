@@ -12,5 +12,4 @@ Environmental Demo
 
 Arudino Code
 
-Slide DEck
-
+Slide Deck
