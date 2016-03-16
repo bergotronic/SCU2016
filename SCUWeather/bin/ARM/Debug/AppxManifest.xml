@@ -35,48 +35,48 @@
     <Extension Category="windows.activatableClass.inProcessServer">
       <InProcessServer>
         <Path>CLRHost.dll</Path>
-        <ActivatableClass ActivatableClassId="Microsoft.Azure.Devices.Client.IotHubConnectionStringBuilder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Azure.Devices.Client.DeviceClient" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.Azure.Devices.Client.DeviceAuthenticationWithSharedAccessPolicyKey" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Azure.Devices.Client.IotHubConnectionStringBuilder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Azure.Devices.Client.DeviceAuthenticationWithToken" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.Azure.Devices.Client.AuthenticationMethodFactory" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.Azure.Devices.Client.Message" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.Azure.Devices.Client.DeviceAuthenticationWithRegistrySymmetricKey" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.Azure.Devices.Client.DeviceClient" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.Azure.Devices.Client.DeviceAuthenticationWithToken" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.Connections.Azure.TokenProvider" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.Connections.Azure.EventHubs.HttpSender" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.Connections.Azure.EventHubs.ConnectionParameters" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.Connections.Azure.EventHubs.AmqpSender" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.Connections.Azure.EventHubs.HttpSender" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.Connections.Azure.SensorMeasurement" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.EmptyEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.Microsoft_IoT_DeviceCore_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.Pwm.PwmProviderManager" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.Display.GraphicsTools" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.DispatcherExtensions" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.ScheduledUpdater" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.Controls.GraphicsDisplayPanel" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.GpioExtensions" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.ScheduleOptions" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.Sensors.AnalogSensorReading" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.Sensors.AnalogSensorReadingChangedEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.Adc.AdcProviderManager" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.Scheduler" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.Input.ThumbstickReading" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.GpioExtensions" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.Input.RotaryEncoderRotatedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.Input.ThumbstickReading" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.Input.ThumbstickReadingChangedEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Pwm.SoftPwm" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Pwm.PCA9685" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Sensors.AnalogSensor" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Input.SS944" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Input.PushButton" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Input.RotaryEncoder" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Input.Switch" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Adc.MCP3208" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Adc.MCP3008" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Adc.ADC0832" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Lights.RgbLed" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.ScheduleOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.ScheduledUpdater" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.Microsoft_IoT_DeviceCore_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.Display.GraphicsTools" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.EmptyEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.DispatcherExtensions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.DeviceCore.Adc.AdcProviderManager" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Display.ST7735" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Display.ADA938" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Display.SSD1306" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Pwm.SoftPwm" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Pwm.PCA9685" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Lights.RgbLed" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Sensors.AnalogSensor" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Input.Switch" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Input.SS944" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Input.RotaryEncoder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Input.PushButton" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Adc.ADC0832" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Adc.MCP3008" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Adc.MCP3208" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
   </Extensions>

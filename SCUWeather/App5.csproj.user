@@ -5,7 +5,7 @@
     <UseEmulator>false</UseEmulator>
     <RemoteDebugEnabled>true</RemoteDebugEnabled>
     <UseAuthentication>false</UseAuthentication>
-    <RemoteDebugMachine>leepi2</RemoteDebugMachine>
+    <RemoteDebugMachine>lee_pi2_01</RemoteDebugMachine>
     <AuthenticationMode>Universal</AuthenticationMode>
     <CreateCleanLayout>true</CreateCleanLayout>
   </PropertyGroup>

@@ -44,7 +44,7 @@ namespace App5
         public string Temperature;
         public string Humidity;
 
-        private const string DeviceConnectionString = "Put your STring here :)";
+        private const string DeviceConnectionString = "";
 
 
         private const int LED_PIN = 26;
@@ -54,10 +54,6 @@ namespace App5
 
         private const int SOUND_PIN = 5;
         private GpioPin SoundPin;
-
-        
-
-        //HostName=BergHub1.azure-devices.net;DeviceId=BergDevice2;SharedAccessKey=FkcFl9IwAZEqpPZLyOVeQDUOvacXBYhTh17GwdYqfTQ=
 
         public string AzureMode { get; private set; }
         public string internetConnected { get; private set; }
